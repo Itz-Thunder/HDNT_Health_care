@@ -125,7 +125,7 @@
     <Compile Include="Controllers\EquipmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HospitalController.cs" />
-    <Compile Include="Controllers\MedicalController.cs" />
+    <Compile Include="Controllers\MedicalshopController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -155,15 +155,68 @@
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="Views\Admin\" />
-    <Folder Include="Views\Doctor\" />
-    <Folder Include="Views\Equipment\" />
-    <Folder Include="Views\Home\" />
-    <Folder Include="Views\Hospital\" />
-    <Folder Include="Views\Medical\" />
-    <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Views\Doctor\Dashboard.cshtml" />
+    <Content Include="Views\Shared\_Doctor_layout.cshtml" />
+    <Content Include="Views\Shared\_equipment_layout.cshtml" />
+    <Content Include="Views\Shared\_home_layout.cshtml" />
+    <Content Include="Views\Shared\_hospital_layout.cshtml" />
+    <Content Include="Views\Shared\_medicalshop_layout.cshtml" />
+    <Content Include="Views\Shared\_user_layout.cshtml" />
+    <Content Include="Views\Doctor\Appointmentmanag.cshtml" />
+    <Content Include="Views\Doctor\Patientsrecord.cshtml" />
+    <Content Include="Views\Doctor\Prescriptionmanag.cshtml" />
+    <Content Include="Views\Doctor\Communicationtools.cshtml" />
+    <Content Include="Views\Doctor\Healthrecordint.cshtml" />
+    <Content Include="Views\Doctor\Profilemanag.cshtml" />
+    <Content Include="Views\Doctor\Supportandhelpcenter.cshtml" />
+    <Content Include="Views\Doctor\Discussionforumsandcommunity.cshtml" />
+    <Content Include="Views\Doctor\Changepassword.cshtml" />
+    <Content Include="Views\Equipment\Equipmentcatalog.cshtml" />
+    <Content Include="Views\Equipment\Productpage.cshtml" />
+    <Content Include="Views\Equipment\Shoppingcart.cshtml" />
+    <Content Include="Views\Equipment\Useraccount.cshtml" />
+    <Content Include="Views\Equipment\Checkoutandpayment.cshtml" />
+    <Content Include="Views\Equipment\Ordertracking.cshtml" />
+    <Content Include="Views\Equipment\Customersupport.cshtml" />
+    <Content Include="Views\Equipment\Equipmentrental.cshtml" />
+    <Content Include="Views\Equipment\Warrantyandreturns.cshtml" />
+    <Content Include="Views\Equipment\Bulkordering.cshtml" />
+    <Content Include="Views\Equipment\Customizationoptions.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\MedicalEncy.cshtml" />
+    <Content Include="Views\Home\Emergencies.cshtml" />
+    <Content Include="Views\Home\Healthtools.cshtml" />
+    <Content Include="Views\Home\Vaccinationinfo.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Hospital\Dashboard.cshtml" />
+    <Content Include="Views\Hospital\Appointmentmanag.cshtml" />
+    <Content Include="Views\Hospital\Patientsrecordaccess.cshtml" />
+    <Content Include="Views\Hospital\Doctormanag.cshtml" />
+    <Content Include="Views\Hospital\Facilityinfo.cshtml" />
+    <Content Include="Views\Hospital\Servicerequest.cshtml" />
+    <Content Include="Views\Hospital\Billingandinvoice.cshtml" />
+    <Content Include="Views\Hospital\Telehealthintegration.cshtml" />
+    <Content Include="Views\Hospital\Reviewandfeedback.cshtml" />
+    <Content Include="Views\Hospital\Emergencyinfo.cshtml" />
+    <Content Include="Views\Hospital\Supportandhelpcenter.cshtml" />
+    <Content Include="Views\Medicalshop\Medicalcatalog.cshtml" />
+    <Content Include="Views\Medicalshop\Productpage.cshtml" />
+    <Content Include="Views\Medicalshop\Shoppingcart.cshtml" />
+    <Content Include="Views\Medicalshop\Checkoutandpayment.cshtml" />
+    <Content Include="Views\Medicalshop\Ordertracking.cshtml" />
+    <Content Include="Views\Medicalshop\Customersupport.cshtml" />
+    <Content Include="Views\Medicalshop\Deliveryandshipping.cshtml" />
+    <Content Include="Views\User\Accountsandprofile.cshtml" />
+    <Content Include="Views\User\Userforumsandcommunity.cshtml" />
+    <Content Include="Views\User\Appointmentsheduling.cshtml" />
+    <Content Include="Views\User\Message.cshtml" />
+    <Content Include="Views\User\Healthrecord.cshtml" />
+    <Content Include="Views\User\Changepassword.cshtml" />
+    <Content Include="Views\User\Search.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

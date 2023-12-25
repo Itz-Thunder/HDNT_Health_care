@@ -7,11 +7,40 @@ using System.Web.Mvc;
 namespace Medical_Website.Controllers
 {
     public class UserController : Controller
-    {
-        // GET: User
-        public ActionResult Index()
+    {      
+       
+            // GET: User
+            public ActionResult Accountsandprofile()
+            {
+                return View();
+            }
+            public ActionResult Userforumsandcommunity()
+            {
+                return View();
+            }
+            public ActionResult Appointmentsheduling()
+            {
+                return View();
+            }
+            public ActionResult Message()
+            {
+                return View();
+            }
+            public ActionResult Healthrecord()
+            {
+                return View();
+            }
+        public ActionResult Search() // this contains teh search option to search doctors and hospitals using each other... 
         {
             return View();
         }
+        public ActionResult Logout()
+            {
+                return View();
+            }
+            public ActionResult Changepassword()
+            {
+                return View();
+            }
+        }
     }
-}

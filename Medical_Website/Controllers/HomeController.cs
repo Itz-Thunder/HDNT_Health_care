@@ -8,8 +8,42 @@ namespace Medical_Website.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult MedicalEncy()
+        {
+            return View();
+        }
+
+        public ActionResult Emergencies()
+        {
+            return View();
+        }
+        public ActionResult Healthtools()
+        {
+            return View();
+        }
+        public ActionResult Vaccinationinfo()
+        {
+            return View();
+        }
+        public ActionResult About()
+        {
+            return View();
+        }
+        public ActionResult Contact()
+        {
+            return View();
+        }
+        public ActionResult Register()
+            //should be in pop up window both register and login
+        {
+            return View();
+        }
+        public ActionResult Login()
         {
             return View();
         }
