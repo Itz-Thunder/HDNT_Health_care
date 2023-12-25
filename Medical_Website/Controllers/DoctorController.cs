@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Medical_Website.Controllers
 {
-    public class HomeController : Controller
+    public class DoctorController : Controller
     {
-        // GET: Home
+        // GET: Doctor
         public ActionResult Index()
         {
             return View();
