@@ -133,6 +133,40 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Css\bootstrap.css" />
+    <Content Include="Content\Gif\ambulance.gif" />
+    <Content Include="Content\Gif\assignment.gif" />
+    <Content Include="Content\Gif\award.gif" />
+    <Content Include="Content\Gif\batch.gif" />
+    <Content Include="Content\Gif\call.gif" />
+    <Content Include="Content\Gif\category.gif" />
+    <Content Include="Content\Gif\changepass.gif" />
+    <Content Include="Content\Gif\classlink.gif" />
+    <Content Include="Content\Gif\dashboard.gif" />
+    <Content Include="Content\Gif\email.gif" />
+    <Content Include="Content\Gif\enquiry.gif" />
+    <Content Include="Content\Gif\home.gif" />
+    <Content Include="Content\Gif\information.gif" />
+    <Content Include="Content\Gif\join.gif" />
+    <Content Include="Content\Gif\logout.gif" />
+    <Content Include="Content\Gif\online-class.gif" />
+    <Content Include="Content\Gif\studentmanagement.gif" />
+    <Content Include="Content\Gif\studenttask.gif" />
+    <Content Include="Content\Gif\Ticks.gif" />
+    <Content Include="Content\Gif\video.gif" />
+    <Content Include="Content\Images\anton-8q-U8X1zkvI-unsplash.jpg" />
+    <Content Include="Content\Images\b99c0560-f7a8-4255-bcda-b59434da5796.jpg" />
+    <Content Include="Content\Images\cancer-389921_1920.jpg" />
+    <Content Include="Content\Images\Heart_with_beats-removebg-preview %281%29.png" />
+    <Content Include="Content\Images\logo_review-removebg-preview.png" />
+    <Content Include="Content\Images\pexels-miguel-á-padriñán-3936421.jpg" />
+    <Content Include="Content\Images\pexels-miguel-á-padriñán-806427.jpg" />
+    <Content Include="Content\Images\pexels-pixabay-236380.jpg" />
+    <Content Include="Content\Images\pexels-pixabay-263402 %281%29.jpg" />
+    <Content Include="Content\Images\pexels-puwadon-sangngern-5340280.jpg" />
+    <Content Include="Content\Images\Spectrum-Health-Care-Home-Care.jpg" />
+    <Content Include="Content\Images\Stethoscope_01_modified.png" />
+    <Content Include="Content\Js\bootstrap.bundle.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -147,16 +181,20 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Css\" />
-    <Folder Include="Content\Gif\" />
-    <Folder Include="Content\Images\" />
-    <Folder Include="Content\Js\" />
     <Folder Include="Content\Videos\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="Views\Admin\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\webfonts\fa-brands-400.ttf" />
+    <Content Include="Content\webfonts\fa-brands-400.woff2" />
+    <Content Include="Content\webfonts\fa-regular-400.ttf" />
+    <Content Include="Content\webfonts\fa-regular-400.woff2" />
+    <Content Include="Content\webfonts\fa-solid-900.ttf" />
+    <Content Include="Content\webfonts\fa-solid-900.woff2" />
+    <Content Include="Content\webfonts\fa-v4compatibility.ttf" />
+    <Content Include="Content\webfonts\fa-v4compatibility.woff2" />
     <None Include="packages.config" />
     <Content Include="Views\Doctor\Dashboard.cshtml" />
     <Content Include="Views\Shared\_Doctor_layout.cshtml" />
