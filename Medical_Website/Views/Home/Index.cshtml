@@ -8,10 +8,203 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Css/bootstrap.css" rel="stylesheet" />
+    <script src="~/Content/Js/bootstrap.bundle.js"></script>
+    
+    <link href="~/Content/Css/Custom_01.css" rel="stylesheet" />
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <!-- Preloader start -->
+    <div class="preloader" style="background-color: #a7d4fd;">
+        <img src="~/Content/Images/logo_review-removebg-preview.png" alt="" class="w-50" />
     </div>
+    <!-- Preloader end -->
+    <div id="main-content" style="display: none;">
+        <!-- Your main content goes here -->
+        <div class="container-fluid p-0">
+            <!-- wave starts -->
+            <div class="my-wave">
+                <div class="inner-wave flex">
+                    <div class="container">
+                        <div class="row " style="">
+                            <div class="col-sm-12  text-end  pe-5">
+                                <a href="~/User/Healthrecord" target="_blank" class="slide-in z-3">
+                                    <img src="~/Content/Images/Heart_with_beats-removebg-preview (1).png" height="60"
+                                         style="position: fixed;filter: drop-shadow(5px 5px 5px 5px lightgrey);"
+                                         class="m-rec" alt="" />
+                                </a>
+                                <!-- Button trigger modal -->
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                        style="border-radius: 50%; overflow: hidden;box-shadow: 1px 1px 5px 5px #1e67c1; background-color: #ffffff; margin-top:25px;"
+                                        class="emergency">
+                                    <img src="~/Content/Gif/ambulance.gif" height="30" width="30" alt="" class="w-100"
+                                         style="object-fit: cover;"/>
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered ">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-3 text-start" id="exampleModalLabel">
+                                                    Find The Nearest Ambulance Avaliable
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="">--Select the City--</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                                <hr>
+                                                <select name="" id="" class="form-control">
+                                                    <option value="">--Select Nearest Hospital--</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                            </div>
+                                            <a href="#" class="pe-5 mb-3"
+                                               style="text-decoration: none;">+91-9044197983</a>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary">Find</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 text-start slide-in">
+                                <img src="~/Content/Images/logo_review-removebg-preview.png" alt="Logo img" class="w-50"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Waves Container-->
+                <div>
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave"
+                                  d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax ">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                        </g>
+                    </svg>
+                </div>
+                <!--Waves end-->
+            </div>
+            <!-- wave ends -->
+            <!-- Navbar starts -->
+            <div class="row">
+                <div class="col-sm-8 p-0 mx-auto nav-left" style="background-color:transparent">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav mx-auto px-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">
+                                            <img src="~/Content/Gif/home.gif" alt="" height="35" width="35"/>Home
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">
+                                            <img src="~/Content/Gif/information.gif" alt=""
+                                                 height="35" width="35"/>About US
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">
+                                            <img src="~/Content/Gif/call.gif" alt=""
+                                                 height="35" width="35"/>Contact Us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+            <!-- Navbar Ends -->
+            <!-- Slider start -->
+            <div class="row">
+                <div class="col-sm-10 p-0 mx-auto">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner slide-up" style="border-radius: 20px;">
+                            <div class="carousel-item active">
+                                <img src="~/Content/Images/b99c0560-f7a8-4255-bcda-b59434da5796.jpg" class="d-block w-100"
+                                     alt="..." height="450"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/Content/Images/pexels-pixabay-236380.jpg" class="d-block w-100" alt="..."
+                                     height="450"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/Content/Images/cancer-389921_1920.jpg" class="d-block w-100" alt="..."
+                                     height="450"/>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider End -->
+            <!-- Search start -->
+            <div class="row slide-in z-1" style="transform: translateY(-400px);">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7">
+                    <div class="cont mx-auto" style="width: 80%; height: 65px;">
+                        <div class="search-cont">
+                            <input class="input" type="text">
+                            <button class="btn">
+                                <svg viewBox="0 0 24 24" class="search__icon">
+                                    <g>
+                                        <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Search End -->
+            <!-- pop up img starts -->
+            <div class="row h-set" style="transform: translateY(-520px); margin-bottom: -400px;">
+                <div class="col-sm-10 pop-up-img text-end mx-auto ps-sm-5">
+                    <img src="~/Content/Images/Stethoscope_01_modified.png" alt="" class="w-50 pt-5 slide-up"
+                         style="transform: rotate(-40deg);"/>
+                </div>
+            </div>
+            <!-- pop up img Ends -->
+            <!-- Categories Starts -->
+            <div class="row">
+                <div class="col-sm-12">
+
+                </div>
+            </div>
+            <!-- Categories Ends -->
+        </div>
+    </div>
+    <script src="~/Content/Js/Custom01.js"></script>
 </body>
 </html>

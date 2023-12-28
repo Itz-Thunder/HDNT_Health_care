@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Css\bootstrap.css" />
+    <Content Include="Content\Css\Custom_01.css" />
     <Content Include="Content\Gif\ambulance.gif" />
     <Content Include="Content\Gif\assignment.gif" />
     <Content Include="Content\Gif\award.gif" />
@@ -167,6 +168,7 @@
     <Content Include="Content\Images\Spectrum-Health-Care-Home-Care.jpg" />
     <Content Include="Content\Images\Stethoscope_01_modified.png" />
     <Content Include="Content\Js\bootstrap.bundle.js" />
+    <Content Include="Content\Js\Custom01.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />

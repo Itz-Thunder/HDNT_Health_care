@@ -30,7 +30,7 @@ namespace Medical_Website.Controllers
             {
                 return View();
             }
-        public ActionResult Search() // this contains teh search option to search doctors and hospitals using each other... 
+        public ActionResult Search() // this contains the search option to search doctors and hospitals using each other... 
         {
             return View();
         }
