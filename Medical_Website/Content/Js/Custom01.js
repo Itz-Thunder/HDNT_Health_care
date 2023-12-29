@@ -15,25 +15,21 @@ mainImage.src = imageUrl;
 mainImage.onload = hidePreloader;
 
 
+const login = document.getElementById('login');
+const registerBtn = document.getElementById('register');
+const loginBtn = document.getElementById('login-btn');
 
-$(document).ready(function () {
-    $('.service-slider').slick({
-        slidesToShow: 3, // Number of visible slides at once
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000, // Set to 2000 for a 2-second delay between auto-slides
-        infinite: true,
-        dots: true, // Show navigation dots
-        centerMode: true,
-        focusOnSelect: true,
-        variableWidth: true, // Allows variable width for the slides
-        responsive: [
-            {
-                breakpoint: 768, // Adjust the settings for smaller screens if needed
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
+registerBtn.addEventListener('click', () => {
+    login.classList.add("active");
+});
+
+loginBtn.addEventListener('click', () => {
+    login.classList.remove("active");
+});
+
+const myLoginModal = new bootstrap.Modal("#exampleModal2");
+window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        myLoginModal.show();
+    }, 1800); 
 });
