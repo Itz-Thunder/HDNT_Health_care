@@ -38,7 +38,7 @@ namespace Medical_Website.Controllers
         {
             return View();
         }
-        public ActionResult Customersupport()
+        public ActionResult Customersupport() // call the page from customer support from home view...
         {
             return View();
         }
@@ -54,15 +54,15 @@ namespace Medical_Website.Controllers
         {
             return View();
         }
-        public ActionResult Warrantyandreturns()
+        public ActionResult Warrantyandreturns() // only for hospital to see others cannot see this and after buying only the buyers can see for hospitals the table and for buyers the contact info of the hospitals.
         {
             return View();
         }
-        public ActionResult Bulkordering()
+        public ActionResult Bulkordering() // embedded into the rental page 
         {
             return View();
         }
-        public ActionResult Customizationoptions()
+        public ActionResult Customizationoptions() // embedded into the rental page
         {
             return View();
         }

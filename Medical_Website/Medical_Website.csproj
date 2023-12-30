@@ -211,7 +211,6 @@
     <Content Include="Views\Doctor\Communicationtools.cshtml" />
     <Content Include="Views\Doctor\Healthrecordint.cshtml" />
     <Content Include="Views\Doctor\Profilemanag.cshtml" />
-    <Content Include="Views\Doctor\Supportandhelpcenter.cshtml" />
     <Content Include="Views\Doctor\Discussionforumsandcommunity.cshtml" />
     <Content Include="Views\Doctor\Changepassword.cshtml" />
     <Content Include="Views\Equipment\Equipmentcatalog.cshtml" />
@@ -220,11 +219,8 @@
     <Content Include="Views\Equipment\Useraccount.cshtml" />
     <Content Include="Views\Equipment\Checkoutandpayment.cshtml" />
     <Content Include="Views\Equipment\Ordertracking.cshtml" />
-    <Content Include="Views\Equipment\Customersupport.cshtml" />
     <Content Include="Views\Equipment\Equipmentrental.cshtml" />
     <Content Include="Views\Equipment\Warrantyandreturns.cshtml" />
-    <Content Include="Views\Equipment\Bulkordering.cshtml" />
-    <Content Include="Views\Equipment\Customizationoptions.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\MedicalEncy.cshtml" />
     <Content Include="Views\Home\Emergencies.cshtml" />
@@ -257,6 +253,7 @@
     <Content Include="Views\User\Healthrecord.cshtml" />
     <Content Include="Views\User\Changepassword.cshtml" />
     <Content Include="Views\User\Search.cshtml" />
+    <Content Include="Views\Medicalshop\Medicineinfo.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -46,7 +46,7 @@ namespace Medical_Website.Controllers
             {
                 return View();
             }
-            public ActionResult Medicineinfo() // same as of the product page
+            public ActionResult Medicineinfo() // somehow used to upload the details of the medicines from the merchant end 
             {
                 return View();
             }

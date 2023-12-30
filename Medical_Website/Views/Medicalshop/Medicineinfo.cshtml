@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Medicineinfo";
+    Layout = "~/Views/Shared/_medicalshop_layout.cshtml";
+}
+
+<h2>Medicineinfo</h2>
+
+<div>
+    <h1>Adding Medicine Information :- </h1>
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group m-3 ">
+            <lable class="fs-5">Medicine Name :</lable>
+            <input type="text" class="form-control" placeholder="Enter Your Name..." style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5">Manufacturer Name :</lable>
+            <input type="text" class="form-control" placeholder="Enter Your Name..." style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5"> Active Ingredients :</lable>
+            <textarea class="form-control" placeholder="..." rows="5" style="border:1px solid black;"></textarea>
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5"> Dosage Form :</lable>
+            <input type="text" class="form-control" placeholder="..." style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5">Strength :</lable>
+            <input type="text" class="form-control" style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5">Price :</lable>
+            <input type="number" class="form-control" style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5">Quantity in Stock :</lable>
+            <input type="text" class="form-control" style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5">Manufacturing Date :</lable>
+            <input type="date" class="form-control" style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5">Expiry Date :</lable>
+            <input type="date" class="form-control" style="border:1px solid black;" />
+        </div>
+        <div class="form-group m-3 ">
+            <lable class="fs-5"> Notes / Comments :</lable>
+            <textarea class="form-control" placeholder="..." rows="5" style="border:1px solid black;"></textarea>
+        </div>
+        <input type="submit" class="m-3 btn text-light" value="Send" />
+    </form>
+</div>

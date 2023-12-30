@@ -42,8 +42,8 @@ namespace Medical_Website.Controllers
         {
             return View();
         }
-        public ActionResult Supportandhelpcenter()
-        {
+        public ActionResult Supportandhelpcenter()  // customer care page from Home view
+        { 
             return View();
         }
         public ActionResult Discussionforumsandcommunity()
