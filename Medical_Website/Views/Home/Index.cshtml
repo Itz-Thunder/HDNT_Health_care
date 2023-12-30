@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width" />
     <link href="~/Content/Css/bootstrap.css" rel="stylesheet" />
     <script src="~/Content/Js/bootstrap.bundle.js"></script>
-    
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"></script>
     <link href="~/Content/Css/Custom_01.css" rel="stylesheet" />
     <title>Index</title>
 </head>
@@ -38,53 +39,78 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <!-- Button trigger modal -->
-                                        <button type="button" class="btn custom-login btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        <button type="button" class="btn custom-login-btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                             Join Us
                                         </button>
 
                                         <!-- Modal -->
                                         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
                                                 <div class="modal-content bg-transparent" style="border:none;">
                                                     <div class="modal-header" style="border:none;">
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" style="z-index:10000" aria-label="Close" ></button>
                                                        </div>
-                                                    <div class="modal-body" style="border:none;">
-                                                    <div class="login" id="login">
-                                                            <div class="form-login sign-up">
-                                                                <form>
-                                                                    <h1>Create Account</h1>
+                                                    <div class="modal-body pop-up-login-box" style="border:none;">
+                                                        <div class="login">
+                                                            <div class="login-forms-login">
+                                                                <div class="signin-signup">
+                                                                    <login-form action="#" class="sign-in-login-form">
+                                                                        <h2 class="title">Sign in</h2>
+                                                                        <div class="input-field">
+                                                                            <i class="fas fa-user"></i>
+                                                                            <input type="text" placeholder="Username" />
+                                                                        </div>
+                                                                        <div class="input-field">
+                                                                            <i class="fas fa-lock"></i>
+                                                                            <input type="password" placeholder="Password" />
+                                                                        </div>
+                                                                        <input type="submit" value="Login" class="my-login-btn solid" />
 
-                                                                    <span> use your email for registeration</span>
-                                                                    <input type="text" placeholder="Name">
-                                                                    <input type="email" placeholder="Email">
-                                                                    <input type="password" placeholder="Password">
-                                                                    <button>Sign Up</button>
-                                                                </form>
-                                                            </div>
-                                                            <div class="form-login sign-in">
-                                                                <form>
-                                                                    <h1>Sign In</h1>
+                                                                    </login-form>
+                                                                    <login-form action="#" class="sign-up-login-form">
+                                                                        <h2 class="title">Sign up</h2>
+                                                                        <div class="input-field">
+                                                                            <i class="fas fa-user"></i>
+                                                                            <input type="text" placeholder="Username" />
+                                                                        </div>
+                                                                        <div class="input-field">
+                                                                            <i class="fas fa-envelope"></i>
+                                                                            <input type="email" placeholder="Email" />
+                                                                        </div>
+                                                                        <div class="input-field">
+                                                                            <i class="fas fa-lock"></i>
+                                                                            <input type="password" placeholder="Password" />
+                                                                        </div>
+                                                                        <input type="submit" class="my-login-btn" value="Sign up" />
 
-                                                                    <span> use your email password</span>
-                                                                    <input type="email" placeholder="Email">
-                                                                    <input type="password" placeholder="Password">
-                                                                    <a href="#">Forget Your Password?</a>
-                                                                    <button>Sign In</button>
-                                                                </form>
+                                                                    </login-form>
+                                                                </div>
                                                             </div>
-                                                            <div class="toggle-login">
-                                                                <div class="toggle">
-                                                                    <div class="toggle-panel toggle-left">
-                                                                        <h1>Welcome Back!</h1>
-                                                                        <p>Login to access all of your medical data...</p>
-                                                                        <button class="hidden" id="login-btn">Sign In</button>
+
+                                                            <div class="panels-login">
+                                                                <div class="panel left-panel">
+                                                                    <div class="content">
+                                                                        <h3>New here ?</h3>
+                                                                        <p>
+                                                                            Register with us to use all the features and get aware about your health...
+                                                                        </p>
+                                                                        <button class="my-login-btn transparent" id="my-login-btn">
+                                                                            Sign up
+                                                                        </button>
                                                                     </div>
-                                                                    <div class="toggle-panel toggle-right">
-                                                                        <h1>Hello, Friend!</h1>
-                                                                        <p>Register with your personal details to access all the features...</p>
-                                                                        <button class="hidden" id="register">Sign Up</button>
+                                                                    <img src="~/Content/SVG's/register_image-removebg-preview.svg" class="image"/>
+                                                                </div>
+                                                                <div class="panel right-panel">
+                                                                    <div class="content">
+                                                                        <h3>One of us ?</h3>
+                                                                        <p>
+                                                                            Login With Your ID to Continue the services...
+                                                                        </p>
+                                                                        <button class="my-login-btn transparent" id="my-register-btn">
+                                                                            Sign in
+                                                                        </button>
                                                                     </div>
+                                                                    <img src="~/Content/SVG's/7774236_3736756.svg" class="image" />
                                                                 </div>
                                                             </div>
                                                         </div>

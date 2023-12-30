@@ -15,21 +15,22 @@ mainImage.src = imageUrl;
 mainImage.onload = hidePreloader;
 
 
-const login = document.getElementById('login');
-const registerBtn = document.getElementById('register');
-const loginBtn = document.getElementById('login-btn');
+const register_btn = document.querySelector("#my-register-btn");
+const login_btn = document.querySelector("#my-login-btn");
+const login = document.querySelector(".login");
 
-registerBtn.addEventListener('click', () => {
-    login.classList.add("active");
+login_btn.addEventListener("click", () => {
+    login.classList.add("sign-up-mode");
 });
 
-loginBtn.addEventListener('click', () => {
-    login.classList.remove("active");
+register_btn.addEventListener("click", () => {
+    login.classList.remove("sign-up-mode");
 });
 
 const myLoginModal = new bootstrap.Modal("#exampleModal2");
+
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         myLoginModal.show();
-    }, 1800); 
+    }, 1700); // Add a delay of 2000 milliseconds (2 seconds) before showing the modal
 });

@@ -169,6 +169,8 @@
     <Content Include="Content\Images\Stethoscope_01_modified.png" />
     <Content Include="Content\Js\bootstrap.bundle.js" />
     <Content Include="Content\Js\Custom01.js" />
+    <Content Include="Content\SVG%27s\7774236_3736756.svg" />
+    <Content Include="Content\SVG%27s\register_image-removebg-preview.svg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
