@@ -136,7 +136,6 @@ body {
 
     20% {
         transform: scale(1);
-        /* Zoom to 70% size and rotate 360 degrees */
         opacity: 1;
     }
 

@@ -14,7 +14,7 @@ namespace Medical_Website.Controllers
         }
 
         public ActionResult MedicalEncy()
-        {
+        { // it contains the category section along with the icnos
             return View();
         }
 
@@ -44,6 +44,7 @@ namespace Medical_Website.Controllers
             return View();
         }
         public ActionResult Login()
+            // in the preloaded pop up window at login page 
         {
             return View();
         }

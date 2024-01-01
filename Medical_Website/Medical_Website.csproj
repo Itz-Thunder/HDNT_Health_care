@@ -137,6 +137,7 @@
     <Content Include="Content\Css\Custom_01.css" />
     <Content Include="Content\Gif\ambulance.gif" />
     <Content Include="Content\Gif\assignment.gif" />
+    <Content Include="Content\Gif\astronomy.gif" />
     <Content Include="Content\Gif\award.gif" />
     <Content Include="Content\Gif\batch.gif" />
     <Content Include="Content\Gif\call.gif" />
@@ -146,6 +147,7 @@
     <Content Include="Content\Gif\dashboard.gif" />
     <Content Include="Content\Gif\email.gif" />
     <Content Include="Content\Gif\enquiry.gif" />
+    <Content Include="Content\Gif\healthcare.gif" />
     <Content Include="Content\Gif\home.gif" />
     <Content Include="Content\Gif\information.gif" />
     <Content Include="Content\Gif\join.gif" />
@@ -154,6 +156,7 @@
     <Content Include="Content\Gif\studentmanagement.gif" />
     <Content Include="Content\Gif\studenttask.gif" />
     <Content Include="Content\Gif\Ticks.gif" />
+    <Content Include="Content\Gif\vaccine.gif" />
     <Content Include="Content\Gif\video.gif" />
     <Content Include="Content\Images\anton-8q-U8X1zkvI-unsplash.jpg" />
     <Content Include="Content\Images\b99c0560-f7a8-4255-bcda-b59434da5796.jpg" />
